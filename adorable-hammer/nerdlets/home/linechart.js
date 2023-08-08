@@ -19,7 +19,7 @@ export default class Linechart extends React.Component {
     //  return <LineChart data={[linechart1]} fullWidth />;
     return (
       <LineChart
-        accountId={4043634}
+        accountId={4055886}
         query="SELECT average(host.cpuPercent) AS 'CPU used %' FROM Metric WHERE `entityGuid` = 'NDA1NTg4NnxJTkZSQXxOQXw5MTc5MzkxNjUwMjU3NDU3MzUw' TIMESERIES auto"
         fullWidth
       />

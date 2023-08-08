@@ -20,7 +20,7 @@ export default class Areachart extends React.Component {
     // return <AreaChart data={[areachart1]} fullWidth />;
     return (
       <AreaChart
-        accountId={4043634}
+        accountId={4055886}
         query="SELECT average(host.net.transmitBytesPerSecond) AS 'Transmit bytes per second', average(host.net.receiveBytesPerSecond) AS 'Receive bytes per second' FROM Metric WHERE `entityGuid` = 'NDA1NTg4NnxJTkZSQXxOQXw5MTc5MzkxNjUwMjU3NDU3MzUw' TIMESERIES auto"
         fullWidth
       />
